@@ -3169,7 +3169,12 @@
           "default": "SE",
           "label": "NORDVPN_COUNTRY",
           "name": "NORDVPN_COUNTRY"
-        }
+        },
+        {
+          "default": "legacy_p2p",
+          "label": "NORDVPN_CATEGORY",
+          "name": "NORDVPN_CATEGORY"
+        }       
       ],
       "image": "haugene/transmission-openvpn:latest",
       "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/transmission-icon.png",
