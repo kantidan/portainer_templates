@@ -3145,7 +3145,7 @@
           "name": "PGID"
         },
         {
-          "default": "MULLVAD",
+          "default": "NORDVPN",
           "description": "https://haugene.github.io/docker-transmission-openvpn/supported-providers/",
           "label": "OPENVPN_PROVIDER",
           "name": "OPENVPN_PROVIDER"
@@ -3164,6 +3164,11 @@
           "default": "192.168.0.0/24",
           "label": "LOCAL_NETWORK",
           "name": "LOCAL_NETWORK"
+        },
+        {
+          "default": "SE",
+          "label": "NORDVPN_COUNTRY",
+          "name": "NORDVPN_COUNTRY"
         }
       ],
       "image": "haugene/transmission-openvpn:latest",
